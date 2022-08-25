@@ -1,0 +1,73 @@
+.exchanges-list {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  width: 280px;
+}
+
+#exchanges {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  gap: 0.7rem;
+  height: 450px;
+}
+
+#exchanges span {
+  border-radius: var(--border-rad);
+  padding: 0.4rem;
+  -webkit-border-radius: var(--border-rad);
+  -moz-border-radius: var(--border-rad);
+  -ms-border-radius: var(--border-rad);
+  -o-border-radius: var(--border-rad);
+}
+
+#exchanges span:hover {
+  background-color: var(--dark-blue);
+  box-shadow: var(--box-shadow-3d);
+}
+#exchanges span:active {
+  transform: scale(0.97);
+  -webkit-transform: scale(0.97);
+  -moz-transform: scale(0.97);
+  -ms-transform: scale(0.97);
+  -o-transform: scale(0.97);
+}
+
+#exchange-list-pagination {
+  margin-top: 1rem;
+}
+#exchange-list-pagination button {
+  box-shadow: var(--box-shadow-3d);
+
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: var(--border-rad);
+  -webkit-border-radius: var(--border-rad);
+  -moz-border-radius: var(--border-rad);
+  -ms-border-radius: var(--border-rad);
+  -o-border-radius: var(--border-rad);
+}
+#exchange-list-pagination button:active {
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+}
+#exchange-list-pagination span {
+  box-shadow: var(--box-shadow-3d);
+  color: var(--dark-gray);
+  font-weight: bold;
+  padding: 0.2rem 0.35rem;
+  border-radius: var(--border-rad);
+  background-color: var(--dark-green);
+  margin: 0 0.4rem;
+  -webkit-border-radius: var(--border-rad);
+  -moz-border-radius: var(--border-rad);
+  -ms-border-radius: var(--border-rad);
+  -o-border-radius: var(--border-rad);
+}

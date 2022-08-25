@@ -1,0 +1,23 @@
+.login-page {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  color: var(--dark-gray);
+}
+
+.login-section {
+  border-radius: var(--border-rad);
+  padding: 0.5rem;
+  background-color: rgb(122, 122, 122);
+  max-width: 280px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  -webkit-border-radius: var(--border-rad);
+  -moz-border-radius: var(--border-rad);
+  -ms-border-radius: var(--border-rad);
+  -o-border-radius: var(--border-rad);
+}
+.login-page h2 {
+  margin: 1rem 0.2rem;
+}

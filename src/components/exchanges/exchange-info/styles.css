@@ -1,0 +1,73 @@
+.exchange-info h2 {
+  text-align: center;
+}
+.exchange-info {
+  width: 100%;
+}
+#exchange-info-container {
+  display: grid;
+  place-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  padding: 0 0.5rem;
+}
+.exchange-info-fields {
+  max-width: 320px;
+  color: rgb(170, 170, 170);
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.exchange-info-fields div {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  justify-content: space-evenly;
+}
+.exchange-info-fields img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+/**/
+#exchange-info-name div {
+  color: white;
+}
+/**/
+#exchange-info-social div {
+  flex-direction: column;
+  align-items: flex-start;
+}
+/**/
+#exchange-info-status div {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+#exchange-info-status div .status-field {
+  flex-direction: row;
+}
+#exchange-info-status div .status-field span:last-child {
+  color: var(--soft-green);
+  font-weight: bold;
+}
+/**/
+#exchange-info-trade div {
+  align-self: flex-start;
+}
+#exchange-info-trade div span:last-child {
+  color: var(--soft-green);
+  font-weight: bold;
+}
+
+/**/
+@media (max-width: 700px) {
+  .exchange-info {
+  }
+}

@@ -1,0 +1,61 @@
+:root {
+  --soft-black: rgba(0, 0, 0, 0.5);
+
+  --dark-gray: #1c1c27;
+  --gray: #9090a7;
+  --soft-gray: #ebeaef;
+
+  --dark-blue: #0063f8;
+  --soft-blue: #5b8dee;
+
+  --dark-orange: #ff8801;
+  --soft-orange: #fdac41;
+
+  --dark-red: #ff3b3b;
+  --soft-red: #ff5c5c;
+
+  --dark-green: #05c270;
+  --soft-green: #57eba3;
+
+  --border-rad: 6px;
+  --box-shadow-3d: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.568) 0px 7px 13px -3px,
+    rgba(0, 0, 0, 0.4) 0px -3px 0px inset;
+
+  --orange-grad: linear-gradient(
+    27deg,
+    rgba(255, 136, 0, 1) 26%,
+    rgba(255, 200, 88, 1) 85%
+  );
+
+  --red-grad: linear-gradient(
+    27deg,
+    rgba(255, 0, 0, 1) 26%,
+    rgba(255, 88, 88, 1) 85%
+  );
+
+  --black-grad: linear-gradient(
+    27deg,
+    rgba(0, 0, 0, 1) 26%,
+    rgba(65, 65, 65, 1) 85%
+  );
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--dark-gray);
+  color: var(--soft-gray);
+}
+h2 {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

@@ -1,0 +1,24 @@
+.alert-box {
+  text-align: center;
+  padding: 0.5rem;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 13;
+}
+.alert-box button {
+  cursor: pointer;
+  border: none;
+  font-size: 1.03rem;
+  color: white;
+  border-radius: 5px;
+  padding: 0.2rem 0.4rem;
+  font-weight: bold;
+  margin-left: 0.5rem;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}

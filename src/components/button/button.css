@@ -1,0 +1,24 @@
+.button {
+  border: 2.5px transparent solid;
+  border-radius: var(--border-rad);
+  padding: 0.33rem 0.5rem;
+  font-size: 1.08rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.5 linear;
+  -webkit-border-radius: var(--border-rad);
+  -moz-border-radius: var(--border-rad);
+  -ms-border-radius: var(--border-rad);
+  -o-border-radius: var(--border-rad);
+  -webkit-transition: 0.5 linear;
+  -moz-transition: 0.5 linear;
+  -ms-transition: 0.5 linear;
+  -o-transition: 0.5 linear;
+}
+.button:active {
+  transform: scale(0.976);
+  -webkit-transform: scale(0.976);
+  -moz-transform: scale(0.976);
+  -ms-transform: scale(0.976);
+  -o-transform: scale(0.97);
+}

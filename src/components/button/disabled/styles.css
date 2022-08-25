@@ -1,0 +1,6 @@
+.disabled-btn {
+  width: 280px;
+  cursor: not-allowed;
+  color: black;
+  background-color: var(--gray);
+}

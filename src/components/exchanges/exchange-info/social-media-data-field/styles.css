@@ -1,0 +1,13 @@
+.social-media {
+  align-items: center !important;
+  flex-direction: row !important;
+}
+.social-media img {
+  width: 25px;
+  height: 25px;
+}
+.social-media a {
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: var(--soft-blue);
+}

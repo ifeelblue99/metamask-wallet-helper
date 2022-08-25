@@ -1,0 +1,26 @@
+.market-data {
+  align-self: flex-start;
+  margin-top: 0.3rem;
+  padding: 0.7rem;
+  min-width: 140px;
+  display: inline-block;
+  border-radius: var(--border-rad);
+  background-color: var(--soft-black);
+  -webkit-border-radius: var(--border-rad);
+  -moz-border-radius: var(--border-rad);
+  -ms-border-radius: var(--border-rad);
+  -o-border-radius: var(--border-rad);
+}
+.market-data div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+@media (max-width: 700px) {
+  .market-data div {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

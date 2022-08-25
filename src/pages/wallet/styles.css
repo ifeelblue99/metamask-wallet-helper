@@ -1,0 +1,18 @@
+.wallet-page {
+  display: grid;
+  padding: 0 0.3rem;
+  place-content: center;
+}
+.wallet-page main {
+  gap: 0.3rem;
+  display: flex;
+  max-width: 600px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 700px) {
+  .wallet-page main {
+    flex-direction: column;
+  }
+}

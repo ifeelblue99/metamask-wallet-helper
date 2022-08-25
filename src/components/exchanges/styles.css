@@ -1,0 +1,20 @@
+.exchanges-holder {
+  margin-top: 0.3rem;
+  padding: 0.7rem;
+  display: flex;
+  gap: 1rem;
+  align-self: flex-start;
+  width: 100%;
+  border-radius: var(--border-rad);
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: var(--border-rad);
+  -moz-border-radius: var(--border-rad);
+  -ms-border-radius: var(--border-rad);
+  -o-border-radius: var(--border-rad);
+}
+
+@media (max-width: 700px) {
+  .exchanges-holder {
+    width: auto;
+  }
+}
